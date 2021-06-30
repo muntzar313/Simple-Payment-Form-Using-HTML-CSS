@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment World</title>
+    <link rel="stylesheet" href="c3.css">
+</head>
+<body >
+    <div class="cpay">
+    <form>
+        <h1 class="heading">Payment Form</h1>
+        <hr>
+        <h2>Applicant's Details</h2>
+        <p>Name: <input type="text" name="name" required placeholder="Sayyed Muntzar"></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male<input type="radio" name="gender" id="Male">
+                Female<input type="radio" name="gender" id="Female">
+            </p>
+        </fieldset>
+        <p>
+            Address: <textarea name="address" id="address" cols="30" rows="4" placeholder="Enter your Address"></textarea>
+        </p>
+        <p> Email:<input type="email" name="email" id="email" placeholder="muntzarsayyed@gmail.com"></p>
+        <p>Pincode: <input type="number" name="pincode" id="pincode" placeholder="400009"></p>
+        <h2>Payment Information</h2>
+        <p>
+            Card type:
+            <select name="card_type" id="card_type">
+                <option value="">Select A Card Type</option>
+                <option value="Visa">Visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="MasterCard">MasterCard</option>
+            </select>
+        </p>
+        <p>Card Number:<input type="number" name="Card_num" id="Card_num" placeholder="1234 5678 9012 3456"></p>
+        <p>Expiration Date:<input type="date" name="Exp_Date" id="Exp_Date"></p>
+        <p>CVV: <input type="password" name="password " id ="password" placeholder="***"></p>
+        <p class="sub">SUBMIT:<input type="submit" value="Pay Now"></p>
+        <p class="sub_1">ALL DONE: <input type="reset" value="Reset"></p>
+    </form>
+</div>
+</body>
+</html>
